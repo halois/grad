@@ -1,0 +1,170 @@
+% !mode::"TeX:UTF-8"
+\documentclass[a4paper,11pt,openany]{ctexart}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{xltxtra}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{booktabs}          %表格线
+\usepackage{colortbl}          %表格颜色http://www.ctan.org/tex-archive/macros/latex/contrib/colortbl/.
+\usepackage{hyperref}          %超链接
+
+
+\XeTeXlinebreaklocale "zh"                      % 针对中文进行断行
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt  % 给予TeX断行一定自由度
+\linespread{1.5}                                % 1.5倍行距
+%\usepackage[left=30mm,top=30mm,bottom=25mm,right=30mm]{geometry}
+
+\author{张~浩（陌并）}
+\title{2013研究生入学考试备考总结}
+\date{529666596@qq.com}
+\begin{document}
+  \maketitle
+  \newpage
+
+%===========================纪日====================
+\part{大事记}
+\setcounter{section}{0}
+\begin{itemize}
+  \item[9.11] 开始英语阅读复习（真题从2002年开始）
+  \item[9.12] 单词复习，刘一男单词视频
+  \item[9.13] 南开数学分析真题总结，淘的南开笔记
+  \item[9.16] 南开高等代数真题总结，开始复习政治
+  \item[9.18] 复习英语翻译（唐静flash）整理笔记（9.18,9.20,9.21）
+  \item[9.22] 新东方阅读课（范猛flash）（9.22,9.24,9.25,9.26,10.5,10.6,10.10,10.12,10.13听完）
+  \item[9.25] 新开始，复习规划。早起去班里做翻译
+  
+  朗读文章（9.25,9.26,9.27,9.28,9.29,10.5,10.6,10.7,10.8,10.17,10.18）
+  \item[9.27] 语法课结束（印建坤语法）
+  \item[9.28] 看中科院题目难度，中科院数学分析高等代数真题。记阅读单词（将阅读词汇总结至8k纸上）
+  \item[9.29] 开始写作课（王江涛flash）（9.29,9.30,10.1,10.9）王江涛必背范文
+  \item[10.2] 天津塘沽东疆港游玩与王希民及侄女、陆春锐，租骑自行车，看电影《加勒比海盗4》
+  \item[10.3] 《碟中谍1,2》
+  \item[10.4] 准备送刘春蕾的生日礼物。滨江道和王希民、陆春锐买衣服、鞋
+  \item[10.7] \textcolor{red}{距离考研90天}订 \hyperref[sec:1TD]{第一个Ten Day计划}.
+  \item[10.10] 与班导师讨论考研报考
+  \item[10.11] 报名中国科学院大学数学科学学院基础数学代数$K$理论
+  \item[10.13] 唐国平导师来电：统招两个，分数线330+（所里380+），很难要吃苦
+  
+  中科院分数线$350~~50~~50~~90~~90~~$,去除政治$\geqslant 295$.
+  \item[10.15] 开始英文阅读分析，参考\href{http://book.douban.com/subject/3604774/}{胡敏}，\href{http://book.douban.com/subject/4013355/}{海文}，丁晓钟，\href{http://book.douban.com/subject/3708008/}{张剑}
+  \item[10.17] 看到\hyperref[fig:th]{清华学霸日程表}
+  \item[10.18] \href{http://book.douban.com/subject/5063766/}{大学生数学竞赛题}，中科院真题
+  
+               \textcolor{red}{距离考研80天}订 \hyperref[sec:2TD]{第二个Ten Day计划}.
+  
+\end{itemize}
+
+
+%==================================TD plan=====================
+\newpage
+\part{Ten Day计划}
+\setcounter{section}{0}
+\label{sec:1TD}
+\section{TD}
+ 第一个Ten Day计划，距离考研$90$天:\\
+\begin{tabular}{lp{140pt}p{140pt}}
+ \toprule
+   10.8-10.17&完成项 &未完成项\\
+ \midrule   
+  \multicolumn{3}{c}{\textcolor{blue}{英语}} \\
+ 
+\textcolor{green}{单词}& 翻译单词总结整理；阅读单词整理至2005年 &打印背单词10天单词法；单词课到60\\
+\textcolor{green}{阅读}&整理2002年前笔记；做真题到2005年；打印2002年后文章& \\
+\textcolor{green}{作文}&打印作文；写作课听完&抄必背作文3篇背诵\\
+\textcolor{green}{翻译}&到2008年& \\
+\toprule
+ \multicolumn{3}{c}{\textcolor{blue}{数学}} \\
+ 
+ \textcolor{green}{分析}&多元和级数，听部分数学分析课和高等微积分课&《重温微积分》；做大一时习题\\
+ \textcolor{green}{代数}&图书馆借的习题册做4章&线性代数课\\
+\toprule
+\multicolumn{3}{c}{\textcolor{blue}{政治}}	\\
+
+& 思修看完&毛概看完\\
+\bottomrule
+ \end{tabular}
+ 
+\label{sec:2TD}
+\section{TD}
+第二个Ten Day计划，距离考研$80$天:\\
+ \begin{tabular}{lp{140pt}p{140pt}}
+ \toprule
+   10.18-10.27&完成项 &未完成项\\
+ \midrule	 
+  \multicolumn{3}{c}{\textcolor{blue}{英语}} \\
+ 
+\textcolor{green}{单词}& 背星火单词小册子；翻译词汇重点整理为精华浓缩版；阅读词汇总结至2009年；有道词典录入到$E$ &整理2002年前阅读单词\\
+\textcolor{green}{阅读}&整理2002年后笔记:02,03,04,05共10篇；总结阅读步骤为mindmap&早读 \\
+\textcolor{green}{作文}&打印\href{http://ishare.iask.sina.com.cn/f/22434432.html?from=like}{风中劲草背诵}&抄\href{http://ishare.iask.sina.com.cn/f/20122459.html}{写作必背}\\
+\textcolor{green}{完型}&听新东方强化班& \\
+\toprule
+ \multicolumn{3}{c}{\textcolor{blue}{数学}} \\
+ 
+ \textcolor{green}{分析}&打印分析考试大纲；大学生数学竞赛一元微分题目；每天两道真题&数项级数题；裴礼文书\\
+ \textcolor{green}{代数}&打印代数考试大纲；图书馆借的习题册做完；博士数学论坛\href{http://www.math.org.cn/forum.php?mod=viewthread&tid=2563}{《葵花宝典》}& \\
+\toprule
+\multicolumn{3}{c}{\textcolor{blue}{政治}}	\\
+
+& 大纲解析读一遍&风中小草真题\\
+\bottomrule
+ \end{tabular}
+%======================================表格========================
+\newpage
+\part{表格}
+
+\setcounter{section}{0}
+\section{电影列表}
+
+\begin{tabular}{c|c|c|c|c}
+  日期    & 时间 &片名 &座位&厅号\\
+  \hline
+  2013.01.08 &  凌晨 & 一代宗师（首映） & &  左岸 \\
+  \hline
+  2012.12.08&下午 &一九四二& &滨江道 \\
+  \hline
+  2012.12.12&11:00&人在泰囧&8排09座&左岸3厅\\
+  \hline
+  2012.11.29&13:40&王的盛宴&6排11座&左岸4厅\\
+   &11:20&一九四二&9排11座&左岸3厅\\
+  \hline
+  2012.11.25&15:40&少年派的奇幻漂流&8排11座&左岸6厅\\
+  \hline
+  2012.11.17&17:00&守护者联盟&7排10座&左岸2厅\\
+  \hline
+  2012.11.06&15:45&无敌破坏王&9排13座&左岸2厅\\
+  \hline
+  2012.10.25&12:10&谍影重重4&5排12座&左岸4厅\\
+  \hline
+  2012.10.19& &浮城谜事& & 	\\
+  \hline
+  2012.09.15&13:45&白鹿原&7排11座&左岸3厅\\
+  \hline
+  2012.04.10&14:30&泰坦尼克号&10排12座&左岸1厅\\
+   \hline
+   2012.10.02& 下午&加勒比海盗&宿舍&3号\\
+   \hline
+   2012.10.03&全天&碟中谍1,2&宿舍&3号
+   
+
+\end{tabular}
+
+  
+%==============================附录===================
+\newpage
+\part{附录}
+\setcounter{section}{0}
+\section{清华马冬晗计划书}
+
+\begin{figure*}[htbp]
+\centering
+\includegraphics[bb=0 0 410 307,scale=1]{tsinghua.jpg}
+\caption{清华马冬晗计划表}
+\label{fig:th}
+\end{figure*}
+  
+  
+\end{document}
